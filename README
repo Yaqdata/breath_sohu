@@ -1,0 +1,8 @@
+使用python2.7, pymongo, BeautifulSoup
+
+
+运行时，使用：
+python breath_first.py [url] [限制爬取url个数] [下载个数]
+
+
+项目是先爬取url的html信息，过滤出可以下载的url，并存入mongo，然后将限制爬取的url完成后，从mongo中取出限定个数url进行下载
